@@ -1,0 +1,35 @@
+type = "x86"
+arch = "Windows"
+author = "Ahmad Amireh"
+depends = {
+[[lua >= 5.1]],
+}
+
+desc = "This module adds support for accepting CLI arguments easily using multiple notations and argument types."
+version = "2.1"
+maintainer = "Peter Drahoš"
+files = {
+Unspecified = {
+[[lib\lua\cliargs.lua]],
+}
+,
+Documentation = {
+[[share\lua_cliargs\doc\\cliargs.html]],
+[[share\lua_cliargs\doc\\index.html]],
+[[share\lua_cliargs\doc\\lunadoc.css]],
+}
+,
+Data = {
+[[share\lua_cliargs\LICENSE]],
+[[share\lua_cliargs\README.md]],
+}
+,
+Example = {
+[[share\lua_cliargs\example\example.lua]],
+}
+,
+}
+
+license = "MIT/X11"
+name = "lua_cliargs"
+url = "https://github.com/amireh/lua_cliargs"
