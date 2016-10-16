@@ -1,7 +1,7 @@
 --- This file is part of LuaDist project
 
 name = "lua_cliargs"
-version = "2.1"
+version = "3.0"
 
 desc = "This module adds support for accepting CLI arguments easily using multiple notations and argument types."
 author = "Ahmad Amireh"
